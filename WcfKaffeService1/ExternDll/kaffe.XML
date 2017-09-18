@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>kaffe</name>
+    </assembly>
+    <members>
+        <member name="M:kaffe.Cortado.MlMælk">
+            <summary>
+            hvor meget mælk skal bruge i cortado
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:kaffe.Cortado.Pris">
+            <summary>
+            Prisen på Cortado
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:kaffe.Kaffe">
+            <summary>
+            Abstract klasse som alle kaffer nedarver fra
+            </summary>
+        </member>
+        <member name="M:kaffe.Kaffe.Styrke">
+            <summary>
+            Angiver hvor stærk kaffe er. 
+            Sættes default til "stærk"
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:kaffe.Kaffe.Rabat">
+            <summary>
+            rabat der gives på kaffen
+            </summary>
+        </member>
+        <member name="M:kaffe.Kaffe.#ctor">
+            <summary>
+            default ctor
+            </summary>
+        </member>
+        <member name="M:kaffe.Latte.MlMælk">
+            <summary>
+            Hvor meget mælk skal bruges til Latte
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:kaffe.SortKaffe">
+            <summary>
+            Sort kaffe klasse, nedarver fra Kaffe klassen
+            </summary>
+        </member>
+        <member name="M:kaffe.SortKaffe.Pris">
+            <summary>
+            Prisen på SortKaffe fratrukket rabat
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:kaffe.SortKaffe.#ctor">
+            <summary>
+            Opretter et sort kaffe obj , hvor rabat sættes til 0
+            </summary>
+        </member>
+        <member name="M:kaffe.SortKaffe.#ctor(System.Int32)">
+            <summary>
+            Opretter et SortKaffe obj med rabat
+            </summary>
+            <param name="rabat">rabat der skal gives</param>
+        </member>
+    </members>
+</doc>
